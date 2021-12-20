@@ -1,0 +1,42 @@
+.rollerWrapper {
+    height: 50vh;
+
+    .inputWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1vh;
+        margin: 4vh;
+
+        border: 0.4vh solid white;
+    }
+
+    label {
+        margin-right: 2vh;
+    }
+
+    input {
+        width: 15vh;
+        height: 5vh;
+        padding: 0.3vh;
+
+        color: white;
+        font-size: 1em;
+
+        border: .4vh solid white;
+        outline: none;
+        background: none;
+    }
+
+    .buttonWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 15vh;
+        height: 5vh;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,39 @@
+.audioControllerWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2vh;
+
+    div {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 85%;
+        margin-left: 2vh;
+        height: 4vh;
+
+        font-size: 1em;
+
+        outline: none;
+    }
+
+    button {
+        width: 15vh;
+        height: 5vh;
+        margin: 0 1vh 0 1vh;
+
+        font-size: 1em;
+    }
+
+    .actionDiv {
+        margin: 2vh;
+        width: 100%;
+    }
+}

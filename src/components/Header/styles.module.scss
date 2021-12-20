@@ -1,0 +1,51 @@
+.headerWrapper {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    border-bottom: 0.4vh solid white;
+
+    a {
+        width: 30%;
+        height: 8vh;
+        margin: 1vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-decoration: none;
+        color: white;
+
+        background: gray;
+        transition: .2s;
+    }
+
+    .arnitemSelected {
+        background: #e14700;
+    }
+    
+    .edgarSelected {
+        background: #11c901;
+    }
+    
+    .ibukiSelected {
+        background: #7c00ce;
+    }
+
+    .arnitemButton, .edgarButton, .ibukiButton {
+        background: gray;
+    }
+    
+    .arnitemButton:hover {
+        background: #CE4100;
+    }
+    
+    .edgarButton:hover {
+        background: #0FB500;
+    }
+    
+    .ibukiButton:hover {
+        background: #7000BA;
+    }
+}

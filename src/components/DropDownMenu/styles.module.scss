@@ -1,0 +1,19 @@
+.dropDownMenuWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+
+    p {
+        margin-right: 1vh;
+    }
+
+    .select {
+        height: 5vh;
+
+        font-size: 1em;
+
+        outline: none;
+    }
+}

@@ -1,0 +1,21 @@
+.rollsHistoryWrapper {
+    width: 100%;
+    height: 50vh;
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    border-top: 0.4vh solid white;
+
+    .roll {
+        width: 35vh;
+        height: 30vh;
+        margin: 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        border: 0.4vh solid white;
+    }
+}
